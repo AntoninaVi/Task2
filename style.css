@@ -24,7 +24,6 @@
 html {
     font-family: "DMSans", sans-serif;
 }
-
 body {
     font-family: "DM Sans";
     font-style: normal;
@@ -32,7 +31,6 @@ body {
     font-size: 16px;
     background-color: #f2f2f2;
 }
-
 .button {
     text-align: center;
     border: none;
@@ -312,7 +310,6 @@ h2 {
         text-align: center;
     }
 }
-
 .main--paragraph {
     font-weight: 400;
     font-size: 20px;
@@ -437,7 +434,6 @@ h2 {
         padding: 50px 50px;
     }
 }
-
 .card__logo {
     margin-bottom: 20px;
 }
@@ -637,7 +633,6 @@ h2 {
         margin-right: auto;
     }
 }
-
 /* Brands */
 .brands {
     padding: 184px 0 184px 0;
