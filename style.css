@@ -5,19 +5,19 @@
 }
 @font-face {
     font-family: "DMSans";
-    src: local(DMSans-Bold), url(/fonts/DMSans-Bold.ttf), format("truetype");
+    src: local(DMSans-Bold), url(fonts/DMSans-Bold.ttf), format("truetype");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: "DMSans";
-    src: local(DMSans-Medium), url(/fonts/DMSans-Medium.ttf), format("truetype");
+    src: local(DMSans-Medium), url(fonts/DMSans-Medium.ttf), format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: "DMSans";
-    src: local(DMSans-Regular), url(/fonts/DMSans-Regular.ttf), format("truetype");
+    src: local(DMSans-Regular), url(fonts/DMSans-Regular.ttf), format("truetype");
     font-weight: 400;
     font-style: normal;
 }
