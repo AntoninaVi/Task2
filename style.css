@@ -3,23 +3,30 @@
     padding: 0;
     margin: 0;
 }
+/* dm-sans-regular - latin */
 @font-face {
-    font-family: "DMSans";
-    src: local(DMSans-Bold), url(fonts/DMSans-Bold.ttf), format("truetype");
-    font-weight: 700;
+    font-family: "DM Sans";
     font-style: normal;
-}
-@font-face {
-    font-family: "DMSans";
-    src: local(DMSans-Medium), url(fonts/DMSans-Medium.ttf), format("truetype");
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: "DMSans";
-    src: local(DMSans-Regular), url(fonts/DMSans-Regular.ttf), format("truetype");
     font-weight: 400;
+    src: url("fonts/dm-sans-v11-latin-regular.woff2") format("woff2"),
+        url("fonts/dm-sans-v11-latin-regular.woff") format("woff"),
+        url("fonts/dm-sans-v11-latin-regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "DM Sans";
     font-style: normal;
+    font-weight: 500;
+    src: url("fonts/dm-sans-v11-latin-500.woff2") format("woff2"),
+        url("fonts/dm-sans-v11-latin-500.woff") format("woff"),
+        url("fonts/dm-sans-v11-latin-500.ttf") format("truetype");
+}
+@font-face {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/dm-sans-v11-latin-700.woff2") format("woff2"),
+        url("fonts/dm-sans-v11-latin-700.woff") format("woff"),
+        url("fonts/dm-sans-v11-latin-700.ttf") format("truetype");
 }
 html {
     font-family: "DMSans", sans-serif;
@@ -117,7 +124,7 @@ h2 {
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
-    transition: font-weight .3s;
+    transition: font-weight 0.3s;
 }
 @media screen and (max-width: 1200px) {
     .nav-item {
@@ -129,7 +136,7 @@ h2 {
         font-size: 14px;
     }
 }
-.nav-item:hover{
+.nav-item:hover {
     text-shadow: 0.25px 0.3px 0px rgb(255, 255, 255), -0.25px -0.2px 0px rgb(255, 255, 255);
     transition: ease-in-out 0.3s;
 }
