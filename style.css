@@ -78,7 +78,7 @@ h2 {
 
 /* Header */
 .wrapper-main {
-    background-image: url(img/bg-1.png);
+    background-image: url(img/bg-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -367,7 +367,7 @@ h2 {
 }
 /* Features */
 .features-wrapper {
-    background-image: url(img/bg-2.png);
+    background-image: url(img/bg-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -490,7 +490,7 @@ h2 {
 }
 /* Process */
 .process-wrapper {
-    background-image: url(img/bg-3.png);
+    background-image: url(img/bg-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -725,7 +725,7 @@ h2 {
 }
 /* Start */
 .start-wrapper {
-    background-image: url(img/bg-4.png);
+    background-image: url(img/bg-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
